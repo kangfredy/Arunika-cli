@@ -5,11 +5,11 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "arunika": "./src/command/log.js"
+    "arunika": "./src/command/program-list.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "start": "node src/command/program-list.js"
   },
   "keywords": [],
   "author": "",
